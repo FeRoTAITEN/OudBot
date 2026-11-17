@@ -1,0 +1,74 @@
+{
+  "bots": [
+    {
+      "id": "1",
+      "label": "SpyBot Slave 1",
+      "clientId": "1504422711391158272",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1504422711391158272&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "2",
+      "label": "SpyBot Slave 2",
+      "clientId": "1505104753435349022",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505104753435349022&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "3",
+      "label": "SpyBot Slave 3",
+      "clientId": "1505541792269865101",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505541792269865101&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "4",
+      "label": "SpyBot Slave 4",
+      "clientId": "1505546137938038854",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505546137938038854&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "5",
+      "label": "SpyBot Slave 5",
+      "clientId": "1505546286428852374",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505546286428852374&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "6",
+      "label": "SpyBot Slave 6",
+      "clientId": "1505546622896177283",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505546622896177283&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "7",
+      "label": "SpyBot Slave 7",
+      "clientId": "1505546739288117249",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505546739288117249&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "8",
+      "label": "SpyBot Slave 8",
+      "clientId": "1505546958683766945",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505546958683766945&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "9",
+      "label": "SpyBot Slave 9",
+      "clientId": "1505547208114573392",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505547208114573392&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    },
+    {
+      "id": "10",
+      "label": "SpyBot Slave 10",
+      "clientId": "1505547412360659126",
+      "inviteUrl": "https://discord.com/oauth2/authorize?client_id=1505547412360659126&permissions=3230720&integration_type=0&scope=bot",
+      "token": "YOUR_BOT_TOKEN"
+    }
+  ]
+}

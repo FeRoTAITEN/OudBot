@@ -1,0 +1,9 @@
+{
+  "1": {
+    "token": "YOUR_SLAVE_BOT_TOKEN"
+  },
+  "2": {
+    "token": "ANOTHER_SLAVE_BOT_TOKEN",
+    "guildId": null
+  }
+}

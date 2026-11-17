@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Discord Voice Bridge</title>
+  <style>
+    :root { color-scheme: dark; --bg: #1e1f22; --card: #2b2d31; --text: #dbdee1; --muted: #949ba4; --accent: #5865f2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    main { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; color: #fff; }
+    p, li { color: var(--text); }
+    a { color: var(--accent); }
+    nav { margin-bottom: 1.5rem; font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin: 1rem 0; }
+    th, td { border: 1px solid #3f4147; padding: 0.5rem 0.75rem; text-align: left; }
+    th { background: var(--card); }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="terms.html">Terms of Service</a></nav>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Discord Voice Bridge · Last updated: June 13, 2026</p>
+
+    <p>
+      This Privacy Policy explains how the Discord Voice Bridge bot ("the Bot", "we",
+      "the Service") handles information when you use it in a Discord server. The Bot
+      is typically operated by a self-hosted administrator ("Operator") on their own
+      infrastructure.
+    </p>
+
+    <h2>1. Information We Process</h2>
+    <p>Depending on how the Bot is used, the following data may be processed:</p>
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Purpose</th><th>Stored?</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Discord user ID, username, display name</td>
+          <td>Commands, panel access, music requests, per-user mute</td>
+          <td>May be stored locally by the Operator</td>
+        </tr>
+        <tr>
+          <td>Discord server (guild) ID, channel IDs, role IDs</td>
+          <td>Voice routing, room assignment, access control</td>
+          <td>Yes — local config files</td>
+        </tr>
+        <tr>
+          <td>Voice audio (live stream)</td>
+          <td>Voice bridging between channels</td>
+          <td>No — processed in real time only</td>
+        </tr>
+        <tr>
+          <td>Music queries, queue, playlists, playback history</td>
+          <td>Music player features</td>
+          <td>Yes — local files per room</td>
+        </tr>
+        <tr>
+          <td>Bot profile settings (avatar, status, etc.)</td>
+          <td>Bot appearance and presence</td>
+          <td>Yes — local config</td>
+        </tr>
+        <tr>
+          <td>Language preference</td>
+          <td>Arabic / English UI</td>
+          <td>Yes — per user, locally</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>2. What We Do Not Collect</h2>
+    <ul>
+      <li>We do not require or store email addresses, passwords, or payment information</li>
+      <li>We do not sell personal data</li>
+      <li>We do not intentionally record or archive voice conversations</li>
+      <li>We do not operate a central cloud database for all users — data stays on the Operator's server</li>
+    </ul>
+
+    <h2>3. Local Data Storage</h2>
+    <p>
+      When self-hosted, the Operator's machine may store configuration and usage data in
+      local files, including:
+    </p>
+    <ul>
+      <li><code>data/bots.json</code> — bot tokens (sensitive; Operator responsibility)</li>
+      <li><code>data/bot-channels.json</code> — voice/text channel assignments</li>
+      <li><code>data/profiles.json</code> — bot profile settings</li>
+      <li><code>data/playlists/</code> — saved playlists</li>
+      <li><code>data/history/</code> — music playback history</li>
+    </ul>
+    <p>
+      The Operator is responsible for securing these files and complying with applicable
+      privacy laws in their jurisdiction.
+    </p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>The Bot may communicate with third parties to provide features:</p>
+    <ul>
+      <li><strong>Discord</strong> — platform API and voice infrastructure (<a href="https://discord.com/privacy" target="_blank" rel="noopener">Discord Privacy Policy</a>)</li>
+      <li><strong>YouTube</strong> — music search and playback</li>
+      <li><strong>Lyrics providers</strong> — Genius, Musixmatch, LRCLib, and others when lyrics are requested</li>
+    </ul>
+    <p>
+      These services receive only the data necessary to fulfill requests (e.g., search
+      queries, video IDs). Their own privacy policies apply.
+    </p>
+
+    <h2>5. Discord API Data</h2>
+    <p>
+      Use of the Bot is also subject to Discord's
+      <a href="https://discord.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+      and
+      <a href="https://discord.com/developers/docs/policies-and-agreements/developer-policy" target="_blank" rel="noopener">Developer Policy</a>.
+      We access Discord data only as needed to operate the Bot's features.
+    </p>
+
+    <h2>6. Data Retention</h2>
+    <p>
+      Locally stored data is retained until deleted by the Operator or removed via Bot
+      features (e.g., clearing playlists or bot settings). Voice data is not retained
+      after a session ends.
+    </p>
+
+    <h2>7. Your Rights</h2>
+    <p>
+      Depending on your location, you may have rights to access, correct, or delete personal
+      data. Because data is stored locally by each Operator, contact your server's
+      administrator or the Bot Operator to exercise these rights.
+    </p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>
+      The Bot is not directed at children under 13. We do not knowingly collect personal
+      information from children under 13. Discord requires users to meet its minimum age
+      requirements.
+    </p>
+
+    <h2>9. Security</h2>
+    <p>
+      We take reasonable measures to protect data processed by the Bot. Operators should
+      keep bot tokens and server credentials confidential and restrict panel access using
+      Discord permissions and <code>CONTROL_USER_IDS</code> settings.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. The "Last updated" date above
+      will reflect changes. Continued use of the Bot after changes constitutes acceptance
+      of the revised policy.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      For privacy-related questions, contact the Bot Operator or use the contact link
+      provided in the Bot's control panel or music interface.
+    </p>
+  </main>
+</body>
+</html>

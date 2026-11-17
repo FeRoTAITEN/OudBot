@@ -1,0 +1,5 @@
+.env
+data/bots.json
+data/slave-pool.json
+data/backups/
+node_modules/
